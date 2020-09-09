@@ -1,0 +1,376 @@
+@font-face {
+    src: url(fonts/aleo/Aleo/Aleo-Regular.otf);
+    font-family: Aleo;
+}
+@font-face {
+    src: url(fonts/poppins/Poppins-Regular.otf);
+    font-family: poppins-black;
+}
+.bgimg {
+    background: url(images/main\ image.jpg) no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    font-size: 28px !important;
+    font-family: Aleo;
+    color: rgb(54, 50, 50) !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo:hover {
+    text-decoration: none;
+    color: rgb(54, 50, 50) !important;
+}
+.menu {
+    color: rgb(54, 50, 50) !important;
+    font-size: 13px;
+    font-family: poppins-black;
+}
+.menu a {
+    color: rgb(54, 50, 50) !important;
+}
+.navbar-default{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar li a:hover {
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent !important;
+}
+.menu a:hover, .menu a:active {
+    color: #bd2130 !important;
+    background-color: transparent !important;
+}
+.dropdown-menu>li>a {
+    color: rgb(54, 50, 50) !important;
+} 
+.navbar-default .navbar-nav>.open>a {
+    background-color: transparent !important;
+    color: #bd2130 !important;
+}
+.banner {
+    margin: 100px 0px;
+    padding: 50px;
+    background-color: black;
+    opacity: 0.8;
+    padding: 48px 64px;
+    color: white;
+    text-align: right;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-family: Aleo;
+}
+.side {
+    margin: 30px 0px;
+}
+.banner a {
+    color: white;
+}
+.banner a:hover, .banner a:active, .banner a:visited {
+    text-decoration: none;
+    color: white;
+}
+.banner p {
+    font-size: 15px;
+    margin: 20px 15px 0px auto;
+    padding-bottom: 24px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #dee2e6;
+    line-height: 1.9;
+    max-width: 70%;
+}
+.banner i {
+    color: #eee;
+    margin: 0 10px;
+    font-size: 15px;
+}
+.bannerbutton {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+.mid-text {
+    padding: 96px 0px;
+}
+.cntr {
+    text-align: center;
+}
+.image {
+    max-width: 950px;
+    margin: 40px auto;
+    font-size: 24px;
+}
+.image i {
+    margin-right: 8px;
+    color: #bd2130 !important;
+}
+.caption {
+    padding: 20px 0px;
+    border-bottom: 1px solid #999;
+}
+.blog h3 {
+    font-family: Aleo;
+    font-size: 35px;
+    color: #ef9632;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+.blog h6 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #73736f;
+    margin: 0px;
+    padding: 20px 0px;
+    font-family: Aleo;
+}
+.blog p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5 !important;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}
+.mid-text h3 {
+    font-family: Aleo;
+    text-align: left;
+    color: #343a40;
+    letter-spacing: 1px;
+    font-size: 26px; 
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.mid-text p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 16px;
+}
+.timeline {
+    border-left:  2px solid #dbdcdc;
+    max-width: 700px;
+    margin: auto !important;
+    padding: 0px 10px 0px 50px;
+}
+.grid {
+    background: #f9f9f9;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin: 24px;
+}
+.mark {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #bd2130 !important;
+    top: 0;
+    left: -86px;
+    position: absolute;
+}
+.grid h3 {
+    color: #2C3038;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    position: relative;
+}
+.grid span {
+    display: block;
+    color: #555A64;
+    margin-bottom: 12px;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.readmore {
+    border: 1px solid #777 !important;
+    background-color: transparent !important;
+    color: #999 !important;
+}
+.parallax {
+    background: url(images/Parallax.jpg) no-repeat center fixed;
+    padding: 48px;
+    text-align: center;
+    margin: 50px 0px;
+}
+.parallax h3 {
+    letter-spacing: 1px;
+    font-size: 36px;
+    color: white;
+    padding-top: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: Aleo, serif;    
+    margin-top: 0px;
+}
+.parallax p {
+    font-size: 13px;
+    color: #f8f9fa;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-family: poppins-black;
+}
+.pad {
+    padding: 16px !important;
+}
+.form {
+    color: #495057;
+    border: 1px solid #ced4da;
+    width: 90%;
+    padding: 20px 10px;
+    font-size: 18px;
+    box-shadow: 0px 2px 3px 0px rgba(3, 0, 0, 0.11);
+    margin: 16px 0px;
+    font-family: poppins-black;
+}
+.form-control {
+    border-radius: 0px !important;
+}
+.img {
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .8);
+}
+.box {
+    padding: 20px;
+    border: 1px solid #bbbaba;
+    margin: 15px;
+    float: left;
+}
+.box h4 {
+    color: #bd2130;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    font-family: 'Aleo', serif;
+}
+.box p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+}
+.service i{
+    color: #bd2130;
+    font-size: 34px;
+}
+.service h4 {
+    font-size: 23px;
+    color: #424141;
+    letter-spacing: 1px;
+    font-family: 'Aleo', serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.service p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}
+.back {
+    background: url(images/background.jpg);
+    text-align: center;
+    padding: 48px 15px;
+}
+.back span {
+    color: rgba(255, 255, 255, 0.35);
+    letter-spacing: 2px;
+    font-size: 32px;
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.back h3{
+    margin-bottom: 24px;
+    line-height: 1.2;
+    font-family: 'Aleo', serif;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 46px;
+}
+.back p {
+    color: #e0dfdf;
+    max-width: 780px;
+    margin: 0px auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.footer h3 {
+    font-size: 20px;
+    color: black;
+    font-family: poppins-black;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+.footer p {
+    margin: 8px 0px;
+    font-size: 14px;
+    color: rgb(65, 61, 61);
+    font-family: poppins-black;
+    letter-spacing: 1px;
+}
+.footer a {
+    text-decoration: none !important;
+    color: rgb(65, 61, 61) !important;
+    display: block;
+}
+.footer a:hover {
+    text-decoration: none !important;
+    color: rgb(65, 61, 61) !important;
+    opacity: .8;
+}
+.footer i {
+    color: black;
+    font-size: 16px;
+}
+.footer input {
+    outline: none;
+    padding: 12px 15px;
+    color: #777;
+    font-size: 16px;
+    width: 85%;
+    background: none;
+    letter-spacing: 1px;
+    font-family: poppins-black;
+    border: 1px solid #777 !important;
+    margin-top: 20px;
+    border-radius: 4px;
+    
+}
+.rights{
+    margin-bottom: 15px !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #343a40;
+    text-align: center !important;
+    margin: 0px;
+    padding-top: 50px;
+    line-height: 1.9;
+    font-family: 'Open Sans', sans-serif;
+}
+.rights span {
+    color: #bd2130;
+    font-family: Aleo, serif;
+    font-weight: 700;
+}
